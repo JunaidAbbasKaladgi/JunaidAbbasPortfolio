@@ -17,7 +17,7 @@ export const About = () => {
                 <li><p className='sm:text-xl text-[18px] font-bold'>Zip Code:<span className='text-gray-500'>586101</span></p></li>
                 <li><p className='sm:text-xl text-[18px] font-bold'>Email:<span className='text-gray-500'>junaidabbaskaladgi@gmail.com</span></p></li>
                 <li><p className='sm:text-xl text-[18px] font-bold'>Phone:<span className='text-gray-500'>+919686906851</span></p></li>
-                <li><button className='bg-blue-500 text-white rounded sm:p-2 p-1 font-bold'><a href="JunaidAbbas(Resume).pdf" download='JunaidAbbas(Resume)'>DOWNLOAD CV</a></button></li>
+                <li><button className='bg-blue-500 text-white rounded sm:p-2 p-1 font-bold'><a href="JunaidAbbas(Resume).docx" download='JunaidAbbas(Resume)'>DOWNLOAD CV</a></button></li>
                 </ul>
               </div>
       </div>
