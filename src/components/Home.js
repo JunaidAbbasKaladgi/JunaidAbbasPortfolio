@@ -10,9 +10,9 @@ import { Contact } from './Contact';
 import { Footer } from './Footer';
 import { Education } from './Education';
 import { Projects } from './Projects';
-import TicTacToe from './Tic-Tac-Toe.png'
-import ToDoList from './ToDoList.png'
-import FlipkartClone from './Flipkart-Clone.png'
+import LoginorSignup from './Login or Sign up.png'
+import InventoryManagement from './Inventory Management.png'
+import Youtubeclone from './Youtube clone.png'
 
 export const Home = () => {
   let [open, setOpen] = useState(false);
@@ -88,9 +88,9 @@ export const Home = () => {
        <div ref={ProjectsRef} className="md:h-[65vh] flex flex-col items-center bg-slate-200 py-5  justify-center  text-center  font-serif ">
        <p className='font-bold text-3xl'>Projects</p><br />
        <div className='flex flex-col gap-4 md:flex-row md:gap-10 justify-center'>
-       <Projects name="Flipkart-Clone" image={FlipkartClone} url="https://junaidabbaskaladgi.github.io/Flipkart-Clone/"/>
-       <Projects name="To-Do List" image={ToDoList} url="https://github.com/JunaidAbbasKaladgi/TodoListProject" />
-       <Projects name="TicTacToe" image={TicTacToe} url="https://junaidabbaskaladgi.github.io/Tic-Tac-Toe/" />
+       <Projects name="YouTube-Clone (React js and Tailwind)" image={Youtubeclone} url="https://github.com/JunaidAbbasKaladgi/youtubeclone"/>
+       <Projects name="Inventory Management (Django)" image={InventoryManagement} url="https://github.com/JunaidAbbasKaladgi/Inventory_ManagementProject" />
+       <Projects name="Login/Signup System (Django)" image={LoginorSignup} url="https://github.com/JunaidAbbasKaladgi/Login-and-Registration-Project" />
        </div>
        </div>
        <div ref={ContactRef} className="md:h-[65vh] flex flex-col items-center py-5  justify-center  text-center  font-serif ">
