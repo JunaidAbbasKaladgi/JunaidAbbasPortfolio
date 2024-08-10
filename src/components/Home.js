@@ -10,7 +10,7 @@ import { Contact } from './Contact';
 import { Footer } from './Footer';
 import { Education } from './Education';
 import { Projects } from './Projects';
-import LoginorSignup from './Login or Sign up.png'
+import QuizMaster from './QuizMaster.png'
 import InventoryManagement from './Inventory Management.png'
 import Youtubeclone from './Youtube clone.png'
 
@@ -88,9 +88,9 @@ export const Home = () => {
        <div ref={ProjectsRef} className="md:h-[65vh] flex flex-col items-center bg-slate-200 py-5  justify-center  text-center  font-serif ">
        <p className='font-bold text-3xl'>Projects</p><br />
        <div className='flex flex-col gap-4 md:flex-row md:gap-10 justify-center'>
-       <Projects name="YouTube-Clone (React js and Tailwind)" image={Youtubeclone} url="https://github.com/JunaidAbbasKaladgi/youtubeclone"/>
+       <Projects name="YouTube-Clone (React JS and Tailwind)" image={Youtubeclone} url="https://github.com/JunaidAbbasKaladgi/youtubeclone"/>
        <Projects name="Inventory Management (Django)" image={InventoryManagement} url="https://github.com/JunaidAbbasKaladgi/Inventory_ManagementProject" />
-       <Projects name="Login/Signup System (Django)" image={LoginorSignup} url="https://github.com/JunaidAbbasKaladgi/Login-and-Registration-Project" />
+       <Projects name="QuizMaster (React JS)" image={QuizMaster} url="https://quiz-master-jade.vercel.app/" />
        </div>
        </div>
        <div ref={ContactRef} className="md:h-[65vh] flex flex-col items-center py-5  justify-center  text-center  font-serif ">
@@ -105,5 +105,3 @@ export const Home = () => {
    </div>
   )
 }
-// https://colorlib.com/wp/cat/portfolio/
-// https://forum.freecodecamp.org/t/portfolio-project-styling-the-project-links-to-align-and-be-the-same-size/320586
