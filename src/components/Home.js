@@ -88,7 +88,7 @@ export const Home = () => {
        <div ref={ProjectsRef} className="md:h-[65vh] flex flex-col items-center bg-slate-200 py-5  justify-center  text-center  font-serif ">
        <p className='font-bold text-3xl'>Projects</p><br />
        <div className='flex flex-col gap-4 md:flex-row md:gap-10 justify-center'>
-       <Projects name="YouTube-Clone (React JS and Tailwind)" image={Youtubeclone} url="https://github.com/JunaidAbbasKaladgi/youtubeclone"/>
+       <Projects name="YouTube-Clone (React JS and Tailwind)" image={Youtubeclone} url="https://youtube-g2sj.onrender.com/"/>
        <Projects name="Inventory Management (Django)" image={InventoryManagement} url="https://github.com/JunaidAbbasKaladgi/Inventory_ManagementProject" />
        <Projects name="QuizMaster (React JS)" image={QuizMaster} url="https://quiz-master-jade.vercel.app/" />
        </div>
